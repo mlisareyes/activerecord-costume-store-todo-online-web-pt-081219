@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.float "price"
     t.string "image_url"
     t.integer "string"
+    t.string "size"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
